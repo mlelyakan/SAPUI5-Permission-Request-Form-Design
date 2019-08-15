@@ -1,0 +1,434 @@
+<core:FragmentDefinition xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   xmlns:l="sap.ui.layout"
+   xmlns:f="sap.f">
+   <VBox>
+
+      <!-- Personel Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Personel Bilgileri" class="group-title"/>
+         <l:Grid class="sapUiNoMargin" hSpacing="0" vSpacing="0" defaultSpan="L12 M12 S12">
+            <l:content>
+               <VBox>
+                  <layoutData>
+                     <l:GridData span="XL1 L1 M12 S12" indent="XL0 L0 M0" />
+                  </layoutData>
+                  <f:Avatar src="https://randomuser.me/api/portraits/men/11.jpg" displayShape="Circle" displaySize="L" class="sapUiTinyMarginTopBottom"/>
+               </VBox>
+               <l:BlockLayout>
+                  <l:layoutData>
+                     <l:GridData span="XL11 L11 M12 S12" indent="XL0 L0 M0" />
+                  </l:layoutData>
+                  <l:BlockLayoutRow>
+                     <l:BlockLayoutCell class="sapUiNoContentPadding sapUiTinyMarginBeginEnd">
+                        <VBox>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Personel Adı" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Aydın AYDINOĞLU">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Organizasyon" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Soğuk Haddehaneler Direktörlüğü">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Pozisyon" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Soğuk Haddehaneler Direktörü">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                        </VBox>
+                     </l:BlockLayoutCell>
+                     <l:BlockLayoutCell class="sapUiNoContentPadding sapUiTinyMarginBeginEnd">
+                        <VBox>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Vardiya" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Vardiyasız">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Statüsü" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Aylık Ücretli">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                           <l:Grid containerQuery="true" class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                              <l:content>
+                                 <Text text="Hafta Tatili" wrapping="false" class="form-label">
+                                    <layoutData>
+                                       <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                                 <Text text="Cumartesi, Pazar">
+                                    <layoutData>
+                                       <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                                    </layoutData>
+                                 </Text>
+                              </l:content>
+                           </l:Grid>
+                        </VBox>
+                     </l:BlockLayoutCell>
+                  </l:BlockLayoutRow>
+               </l:BlockLayout>
+            </l:content>
+         </l:Grid>
+      </VBox>
+
+      <!-- Başka Kullanıcıya İzin Oluşturma -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="İzin Talebi" class="group-title"/>
+         <CheckBox text="Başka bir personel için izin talebi oluştur" wrapping="true" class="sapUiTinyMarginBegin"/>
+         <l:Grid class="sapUiNoMargin" hSpacing="1" vSpacing="0" defaultSpan="L12 M12 S12">
+            <l:content>
+               <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                  <l:content>
+                     <Text text="Personel Id" wrapping="false" class="form-label input-label">
+                        <layoutData>
+                           <l:GridData span="XL1 L1 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                     </Text>
+                     <VBox>
+                        <layoutData>
+                           <l:GridData span="XL11 L11 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                        <Input width="100%"/>
+                     </VBox>
+                  </l:content>
+               </l:Grid>
+            </l:content>
+         </l:Grid>
+      </VBox>
+
+      <!-- İzin Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="İzin Bilgileri" class="group-title"/>
+         <l:Grid class="sapUiNoMargin" hSpacing="1" vSpacing="0" defaultSpan="L6 M12 S12">
+            <l:content>
+               <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                  <l:content>
+                     <Text text="İzin Türü" wrapping="false" class="form-label input-label">
+                        <layoutData>
+                           <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                     </Text>
+                     <VBox>
+                        <layoutData>
+                           <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                        <Select width="100%"/>
+                     </VBox>
+                  </l:content>
+               </l:Grid>
+               <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                  <l:content>
+                     <Text text="Alt İzin Türü" wrapping="false" class="form-label input-label">
+                        <layoutData>
+                           <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                     </Text>
+                     <VBox>
+                        <layoutData>
+                           <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                        </layoutData>
+                        <FlexBox renderType="Bare">
+                           <Select width="100%"/>
+                           <Select width="100%" class="sapUiTinyMarginBeginEnd"/>
+                           <Select width="100%"/>
+                        </FlexBox>
+                     </VBox>
+                  </l:content>
+               </l:Grid>
+            </l:content>
+         </l:Grid>
+         <CheckBox text="Yıllık iznimi saatlik olarak kullanmayı talep ediyor ve onaylıyorum." wrapping="true" class="sapUiTinyMarginBegin"/>
+      </VBox>
+
+      <!-- Tarih Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Tarih Bilgileri" class="group-title"/>
+         <l:Grid class="sapUiNoMargin" hSpacing="1" vSpacing="0" defaultSpan="L6 M12 S12">
+            <l:content>
+               <VBox>
+                  <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                     <l:content>
+                        <Text text="Başlangıç / Bitiş Tarihi" wrapping="false" class="form-label input-label">
+                           <layoutData>
+                              <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                        <DateRangeSelection placeholder="İzin Başlangıç ve Bitiş Tarihi">
+                           <layoutData>
+                              <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </DateRangeSelection>
+                     </l:content>
+                  </l:Grid>
+               </VBox>
+               <VBox>
+                  <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                     <l:content>
+                        <Text text="Fiili İşe Başlangıç Tarihi" wrapping="false" class="form-label">
+                           <layoutData>
+                              <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                        <Text text="Fiili İşe Başlangıç Tarihi">
+                           <layoutData>
+                              <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                     </l:content>
+                  </l:Grid>
+               </VBox>
+               <VBox>
+                  <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                     <l:content>
+                        <Text text="Başlangış / Bitiş Saati" wrapping="false" class="form-label input-label">
+                           <layoutData>
+                              <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                        <FlexBox renderType="Bare">
+                           <layoutData>
+                              <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                           <TimePicker width="100%" placeholder="İzin Başlangış Saati" class="sapUiTinyMarginEnd"/>
+                           <TimePicker width="100%" placeholder="İzin Başlangış Saati"/>
+                        </FlexBox>
+                     </l:content>
+                  </l:Grid>
+               </VBox>
+            </l:content>
+         </l:Grid>
+      </VBox>
+
+      <!-- Diğer İzin Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Diğer İzin Bilgileri" class="group-title"/>
+         <l:Grid class="sapUiNoMargin" hSpacing="1" vSpacing="0" defaultSpan="L6 M12 S12">
+            <l:content>
+               <VBox>
+                  <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                     <l:content>
+                        <Text text="İznin Geçirileceği Yer" wrapping="false" class="form-label input-label">
+                           <layoutData>
+                              <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                        <Input placeholder="İznin Geçirileceği Yer">
+                           <layoutData>
+                              <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Input>
+                     </l:content>
+                  </l:Grid>
+               </VBox>
+               <VBox>
+                  <l:Grid class="sapUiNoMargin form-element-container" hSpacing="0" vSpacing="0" defaultSpan="XL12 L12 M12 S12">
+                     <l:content>
+                        <Text text="Açıklama" wrapping="false" class="form-label input-label">
+                           <layoutData>
+                              <l:GridData span="XL2 L2 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Text>
+                        <Input placeholder="Açıklama">
+                           <layoutData>
+                              <l:GridData span="XL10 L10 M12 S12" indent="XL0 L0 M0" />
+                           </layoutData>
+                        </Input>
+                     </l:content>
+                  </l:Grid>
+               </VBox>
+            </l:content>
+         </l:Grid>
+      </VBox>
+
+      <!-- Doküman Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Doküman Bilgileri" class="group-title"/>
+         <Table inset="false" mode="SingleSelectMaster" items="{/UsersCollection}" class="table-documents">
+            <headerToolbar>
+               <OverflowToolbar>
+                  <Button icon="sap-icon://add" text="Dosya Seç" type="Accept"/>
+               </OverflowToolbar>
+            </headerToolbar>
+            <columns>
+               <Column>
+                  <Text text="Oluşturan" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Tarihi" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Saati" />
+               </Column>
+               <Column hAlign="Center">
+                  <Text text="İşlem" />
+               </Column>
+            </columns>
+            <items>
+               <ColumnListItem vAlign="Middle">
+                  <cells>
+                     <ObjectIdentifier title="{Name}"/>
+                     <ObjectIdentifier title="{CreatedDate}"/>
+                     <ObjectIdentifier title="{CreatedTime}"/>
+                     <ObjectStatus text="{Process}" inverted="true" state="Warning" active="true"/>
+                  </cells>
+               </ColumnListItem>
+            </items>
+         </Table>
+      </VBox>
+
+      <!-- Bilgi Amaçlı Mail Gönderilecek Kişiler -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Bilgi Amaçlı Mail Gönderilecek Kişiler" class="group-title"/>
+         <Table inset="false" mode="SingleSelectMaster" items="{/UsersCollection}" class="table-documents">
+            <headerToolbar>
+               <OverflowToolbar>
+                  <Button icon="sap-icon://add" text="Kişi Seç" type="Accept"/>
+               </OverflowToolbar>
+            </headerToolbar>
+            <columns>
+               <Column>
+                  <Text text="Oluşturan" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Tarihi" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Saati" />
+               </Column>
+               <Column hAlign="Center">
+                  <Text text="İşlem" />
+               </Column>
+            </columns>
+            <items>
+               <ColumnListItem vAlign="Middle">
+                  <cells>
+                     <HBox alignItems="Center">
+                        <f:Avatar src="{Photo}" class="sapUiTinyMarginEnd" displaySize="Custom" customDisplaySize="2rem"/>
+                        <ObjectIdentifier title="{Name}" text="{ProductId}" />
+                     </HBox>
+                     <ObjectIdentifier title="{CreatedDate}"/>
+                     <ObjectIdentifier title="{CreatedTime}"/>
+                     <ObjectStatus text="{Process}" inverted="true" state="Warning" active="true"/>
+                  </cells>
+               </ColumnListItem>
+            </items>
+         </Table>
+      </VBox>
+
+      <!-- Onaycı Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Onaycı Bilgileri" class="group-title"/>
+         <Table inset="false" mode="SingleSelectMaster" items="{/UsersCollection}" class="table-documents sapUiSmallMarginTop">
+            <columns>
+               <Column>
+                  <Text text="Oluşturan" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Tarihi" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Saati" />
+               </Column>
+               <Column hAlign="Center">
+                  <Text text="İşlem" />
+               </Column>
+            </columns>
+            <items>
+               <ColumnListItem vAlign="Middle">
+                  <cells>
+                     <HBox alignItems="Center">
+                        <f:Avatar src="{Photo}" class="sapUiTinyMarginEnd" displaySize="Custom" customDisplaySize="2rem"/>
+                        <ObjectIdentifier title="{Name}" text="{ProductId}" />
+                     </HBox>
+                     <ObjectIdentifier title="{CreatedDate}"/>
+                     <ObjectIdentifier title="{CreatedTime}"/>
+                     <ObjectStatus text="{Process}" inverted="true" state="Warning" active="true"/>
+                  </cells>
+               </ColumnListItem>
+            </items>
+         </Table>
+      </VBox>
+
+      <!-- Yıllık İzin ve İzin Bakiyesi Bilgileri -->
+      <VBox class="sapUiMediumMarginBottom">
+         <Title level="H4" titleStyle="H4" text="Yıllık İzin ve İzin Bakiyesi Bilgileri" class="group-title"/>
+         <Table inset="false" mode="SingleSelectMaster" items="{/UsersCollection}" class="table-documents sapUiSmallMarginTop">
+            <columns>
+               <Column>
+                  <Text text="Oluşturan" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Tarihi" />
+               </Column>
+               <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+                  <Text text="Oluşturma Saati" />
+               </Column>
+               <Column hAlign="Center">
+                  <Text text="İşlem" />
+               </Column>
+            </columns>
+            <items>
+               <ColumnListItem vAlign="Middle">
+                  <cells>
+                     <HBox alignItems="Center">
+                        <f:Avatar src="{Photo}" class="sapUiTinyMarginEnd" displaySize="Custom" customDisplaySize="2rem"/>
+                        <ObjectIdentifier title="{Name}"/>
+                     </HBox>
+                     <ObjectIdentifier title="{CreatedDate}"/>
+                     <ObjectIdentifier title="{CreatedTime}"/>
+                     <ObjectStatus text="{Process}" inverted="true" state="Warning" active="true"/>
+                  </cells>
+               </ColumnListItem>
+            </items>
+         </Table>
+      </VBox>
+
+   </VBox>
+</core:FragmentDefinition>

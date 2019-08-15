@@ -1,0 +1,30 @@
+<mvc:View controllerName="SapUI5Tutorial.Application.Start.controller.Start"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:core="sap.ui.core"
+   xmlns:l="sap.ui.layout"
+   xmlns="sap.m" height="100%">
+   <Page showHeader="false">
+      <content>
+         <l:FixFlex>
+            <l:fixContent>
+               <HBox alignItems="Center" justifyContent="Center" class="page-header">
+                  <Title text="İzin Talep Formu" class="sapUiTinyMarginEnd"/>
+               </HBox>
+            </l:fixContent>
+            <l:flexContent>
+               <ScrollContainer height="100%" width="100%" horizontal="false" vertical="true" focusable="false">
+                  <VBox class="fragment-container">
+                     <core:Fragment fragmentName="SapUI5Tutorial.Application.Start.views.PersonelInfo" type="XML" />
+                  </VBox>
+               </ScrollContainer>
+            </l:flexContent>
+         </l:FixFlex>
+      </content>
+      <footer>
+         <OverflowToolbar>
+            <ToolbarSpacer/>
+            <Button text="Kaydet"/>
+         </OverflowToolbar>
+      </footer>
+   </Page>
+</mvc:View>

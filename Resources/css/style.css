@@ -1,0 +1,59 @@
+.form-element-container {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ddd !important;
+}
+
+.form-element-container .form-label {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.form-element-container .input-label {
+    font-weight: 600;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.icontab-border .sapMITH {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.table-documents .sapMTitle {
+    color: #d98540 !important;
+    font-size: 15px !important;
+}
+
+.table-documents .sapMTB-Transparent-CTX.sapMTB {
+    padding: 0 !important;
+}
+
+.fragment-container {
+    padding: 20px;
+}
+
+.permission-dynamic-page .sapMITBScrollContainer {
+    margin: 0 !important;
+}
+
+.page-header {
+    padding: 15px 35px 10px 35px;
+    background: #e6edf1 !important;
+    border-bottom: 1px solid #dceaf3 !important;
+}
+
+.page-header .sapMTitle {
+    color: #556f7e !important;
+    text-shadow: unset !important;
+}
+
+.global-shell .sapMShellBrandingBar {
+    display: none !important;
+}
+
+.group-title {
+    padding: 10px;
+    background: #ebf2f6;
+    width: 100%;
+    color: #263e58 !important;
+}
